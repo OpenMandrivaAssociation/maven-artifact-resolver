@@ -1,7 +1,7 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           maven-artifact-resolver
 Version:        1.0
-Release:        9.0%{?dist}
+Release:        9.1%{?dist}
 # Epoch is added because the original package's version in maven-shared is 1.1-SNAPSHOT
 Epoch:          1
 Summary:        Maven Artifact Resolution API
